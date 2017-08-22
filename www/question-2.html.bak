@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="msapplication-tap-highlight" content="no">
+  
+
+
+  <!-- CORE CSS-->
+  <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="css/style.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <!-- Custome CSS-->    
+  <link href="css/custom/custom.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+
+  <!-- INCLUDED PLUGIN CSS ON THIS PAGE -->
+  <link href="js/plugins/prism/prism.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="js/plugins/perfect-scrollbar/perfect-scrollbar.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="js/plugins/chartist-js/chartist.min.css" type="text/css" rel="stylesheet" media="screen,projection">
+</head>
+
+<body>
+  <!-- Start Page Loading -->
+  <div id="loader-wrapper">
+      <div id="loader"></div>        
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+  </div>
+  <!-- End Page Loading -->
+
+  <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+
+   <!-- START HEADER -->
+  <header id="header" class="page-topbar">
+        <!-- start header nav-->
+        <div class="navbar-fixed">
+            <nav class="navbar-color" style="box-shadow: 0 2px 3px 0 rgb(222, 1, 47), 0 2px 10px 0 rgba(0,0,0,0.12);">
+                <img src="images/materialize-logo1.png"  style="width:100%; height:100%"/>
+            </nav>
+        </div>
+        <!-- end header nav-->
+  </header>
+  <!-- END HEADER -->
+
+  <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+  <!-- START MAIN -->
+  <div id="main">
+    <!-- START WRAPPER -->
+    <div class="wrapper">
+
+      <!-- START LEFT SIDEBAR NAV-->
+      <aside id="left-sidebar-nav" style="margin-bottom:100px">
+        <ul id="slide-out" class="side-nav fixed leftside-navigation">
+			 <li class="bold"><img src="./images/B2.png" style="width:100%"/></li>
+            <li class="bold"><a href="index.html" class="waves-effect waves-cyan"><i class="mdi-action-home"></i> Accueil</a></li>
+            <li class="bold"><a href="historique.html" class="waves-effect waves-cyan"><i class="mdi-image-remove-red-eye"></i> Historique</a></li>
+            <li class="bold"><a href="apropos.html" class="waves-effect waves-cyan"><i class="mdi-communication-live-help"></i> A Propos</a></li>
+        </ul>
+        <a href="#" data-activates="slide-out" class="sidebar-collapse btn-floating btn-medium waves-effect waves-light hide-on-large-only cyan"><i class="mdi-navigation-menu"></i></a>
+        </aside>
+      <!-- END LEFT SIDEBAR NAV-->
+
+      <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+      <!-- START CONTENT -->
+      <section id="content" >
+        <!--start container-->
+        <div class="container" style="margin:0 auto;">
+          <div class="col s12 m12 l6">
+                <div class="card-panel" style="background-image: url(bg.png); background-size: cover; height:100vh">
+                  <h4 class="header2 .center-align" align="center"><b>Donnez votre avis </b></h4>
+				   <div class="row">
+                        <div class="input-field col s12">
+                           <ul class="pagination" align="center">
+                        <li class=" waves-effect waves-circle">
+                           <a href="question-1.html">1</a>
+                        </li>
+                        <li >
+                           <a class=" btn btn-floating pulse" href="question-2.html">2</a>
+                        </li>
+                        <li class="waves-effect waves-circle">
+                           <a href="question-3.html">3</a>
+                        </li>
+                     </ul>
+                       </div>
+                    </div>
+                      
+                  <div class="row">
+                    <form class="col s12" action="question-3.html">
+                     <table class="table bordered">
+						<tr>
+							<td>
+								<label style="font-size: 1rem;">L’ensemble de la boutique et ses abords
+son-ils propres (sols, linéaires, comptoirs, vitre, etc)?</label>
+							</td>
+							<td>
+								<div class="row">
+									<div class="input-field col s12">
+										<p>
+											<input type="checkbox" class="filled-in" name="1" id="test1">
+											<label for="test1" style="top: 0rem;"></label>
+										</p>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label style="font-size: 1rem;">Les linéaires de la boutique sont- ils remplis
+et propres (gondoles et frigos) ?</label>
+							</td>
+							<td>
+								<div class="row">
+									<div class="input-field col s12">
+										<p>
+											<input type="checkbox" class="filled-in" name="2" id="test2">
+											<label for="test2" style="top: 0rem;"></label>
+										</p>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label style="font-size: 1rem;">L’affichage commercial est-il conforme
+(etiquette pris au bon endroit au bon prix)?</label>
+							</td>
+							<td>
+								<div class="row">
+									<div class="input-field col s12">
+										<p>
+											<input type="checkbox" class="filled-in" name="3" id="test3">
+											<label for="test3" style="top: 0rem;"></label>
+										</p>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label style="font-size: 1rem;">Les toilettes sont- elles propres et en état de
+fonctionnement?</label>
+							</td>
+							<td>
+								<div class="row">
+									<div class="input-field col s12">
+										<p>
+											<input type="checkbox" class="filled-in" name="4" id="test4">
+											<label for="test4" style="top: 0rem;"></label>
+										</p>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label style="font-size: 1rem;">Etes vous satisfait de l’ensemble de la
+prestationla prestation?</label>
+							</td>
+							<td>
+								<div class="row">
+									<div class="input-field col s12">
+										<p>
+											<input type="checkbox" class="filled-in" name="5" id="test5">
+											<label for="test5" style="top: 0rem;"></label>
+										</p>
+									</div>
+								</div>
+							</td>
+						</tr>
+					 </table>
+                     <div class="row">
+                        <div class="row">
+						<br>
+                          <div class="input-field col s12">
+                            <button class="btn colorbtn waves-effect waves-light right" type="submit" name="action">Suivant
+                              <i class="mdi-content-send right"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!--end container-->
+      </section>
+      <!-- END CONTENT -->
+
+      <!-- //////////////////////////////////////////////////////////////////////////// -->
+   
+    </div>
+    <!-- END WRAPPER -->
+
+  </div>
+  <!-- END MAIN -->
+
+
+
+  <!-- //////////////////////////////////////////////////////////////////////////// -->
+
+
+    <!-- ================================================
+    Scripts
+    ================================================ -->
+    
+    <!-- jQuery Library -->
+    <script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script>    
+    <!--materialize js-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!--prism
+    <script type="text/javascript" src="js/prism/prism.js"></script>-->
+    <!--scrollbar-->
+    <script type="text/javascript" src="js/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <!-- chartist -->
+    <script type="text/javascript" src="js/plugins/chartist-js/chartist.min.js"></script>   
+    
+    <!--plugins.js - Some Specific JS codes for Plugin Settings-->
+    <script type="text/javascript" src="js/plugins.min.js"></script>
+    <!--custom-script.js - Add your own theme custom JS-->
+    <script type="text/javascript" src="js/custom-script.js"></script>
+    
+</body>
+
+
+</html>
