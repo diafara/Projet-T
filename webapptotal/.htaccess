@@ -1,0 +1,9 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule utilisateur.html$  index.php [L]
+RewriteRule statistique.html$  index.php [L]
+RewriteRule avis.html$  index.php [L]
+RewriteRule avis_details-([0-9]+)\.html$  index.php  [L]
+RewriteRule statistique_details-([0-9]+)\.html$  index.php  [L]
+RewriteRule statistique_details-([0-9]+)-([0-9]+)\.html$  index.php  [L]
