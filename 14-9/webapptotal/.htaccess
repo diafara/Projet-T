@@ -1,0 +1,14 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteRule utilisateur.html$  index.php [L]
+RewriteRule statistique.html$  index.php [L]
+RewriteRule deconnexion.html?destroy=1$  home.php [L]
+RewriteRule avis.html$  index.php [L]
+RewriteRule connexion.html$  login.php [L]
+RewriteRule avis_details-([0-9]+)\.html$  index.php  [L]
+RewriteRule statistique_details-([0-9]+)\.html$  index.php  [L]
+RewriteRule utilisateur_modifier-([0-9]+)\.html$  index.php  [L]
+RewriteRule utilisateur_supprimer-([0-9]+)\.html$  index.php  [L]
+RewriteRule utilisateur_ajouter\.html$  index.php  [L]
+RewriteRule statistique_details-([0-9]+)-([0-9]+)\.html$  index.php  [L]
